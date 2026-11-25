@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shorts Bot</title>
+<meta name="description" content="Ferramenta interna que publica Shorts educativos no canal do próprio dono via YouTube Data API.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<nav><a href="index.html" aria-current="page">Início</a><a href="privacy.html">Política de Privacidade</a><a href="terms.html">Termos de Uso</a></nav>
+
+<h1>Shorts Bot</h1>
+<p class="lead">Ferramenta interna e de uso pessoal que publica vídeos curtos educativos (YouTube Shorts) sobre curiosidades e ciência no canal do próprio dono.</p>
+
+<h2>O que o app faz</h2>
+<p>O Shorts Bot roda no computador do dono do canal. Uma vez por dia ele:</p>
+<ol>
+  <li>Escreve um roteiro curto sobre um fato científico verificável, com fonte citada na descrição.</li>
+  <li>Gera a narração, monta o vídeo vertical com clipes de bancos de imagens livres (Pixabay/Pexels) e legendas.</li>
+  <li>Envia o vídeo para o canal do próprio dono usando a YouTube Data API v3 (<code>videos.insert</code>).</li>
+  <li>Lê as estatísticas públicas dos vídeos do próprio canal (visualizações, curtidas) para escolher os próximos temas.</li>
+</ol>
+
+<h2>Quem usa</h2>
+<p>O app é usado apenas pelo dono do canal, para gerenciar o seu próprio canal. Não há usuários externos, não há cadastro e o app não é oferecido ao público.</p>
+
+<h2>Uso da API do YouTube</h2>
+<p>O Shorts Bot usa os YouTube API Services. Ao usar este app você concorda com os
+<a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">Termos de Serviço do YouTube</a>.
+Os dados são tratados conforme a <a href="privacy.html">nossa Política de Privacidade</a> e a
+<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a>.</p>
+
+<footer>Contato: <a href="mailto:victorhicsimoes@gmail.com">victorhicsimoes@gmail.com</a></footer>
+</main>
+</body>
+</html>
